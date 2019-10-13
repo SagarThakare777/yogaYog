@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Muli-Regular.ttf">
+            <string>Muli-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="181" id="KGk-i7-Jjw" customClass="CategoryTableViewCell" customModule="YogaApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="190"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="345" height="189.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="clO-As-Hl4" customClass="CardView" customModule="YogaApp" customModuleProvider="target">
+                        <rect key="frame" x="10" y="10" width="325" height="169.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yoga_Login_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="iZp-zu-9A6">
+                                <rect key="frame" x="10" y="10" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="Dtb-9i-pbL"/>
+                                    <constraint firstAttribute="height" constant="35" id="d2J-qZ-v0G"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master Yoga Positions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WbU-ew-ucZ">
+                                <rect key="frame" x="59" y="10" width="256" height="22"/>
+                                <fontDescription key="fontDescription" name="Muli-Regular" family="Muli" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1gK-1V-6xI" userLabel="EventDetails" customClass="CardView" customModule="YogaApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="114.5" width="325" height="55"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stopwatch" translatesAutoresizingMaskIntoConstraints="NO" id="n3F-Pz-ahe">
+                                        <rect key="frame" x="30" y="5" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="25" id="uBY-vc-Trs"/>
+                                            <constraint firstAttribute="height" constant="25" id="xWp-5O-reN"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weightlifter" translatesAutoresizingMaskIntoConstraints="NO" id="Ulh-Xz-S5k">
+                                        <rect key="frame" x="150" y="5" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="L9v-8b-Ntu"/>
+                                            <constraint firstAttribute="width" constant="25" id="ruB-Um-eg6"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="review" translatesAutoresizingMaskIntoConstraints="NO" id="huC-a8-KdT">
+                                        <rect key="frame" x="270" y="5" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="25" id="BUH-YQ-U39"/>
+                                            <constraint firstAttribute="height" constant="25" id="hfP-8l-F0k"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10-15 min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdH-Ff-9dg">
+                                        <rect key="frame" x="18.5" y="35" width="48" height="13"/>
+                                        <fontDescription key="fontDescription" name="Muli-Regular" family="Muli" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12 Exercise" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ur0-mj-fxY">
+                                        <rect key="frame" x="136" y="35" width="53" height="13"/>
+                                        <fontDescription key="fontDescription" name="Muli-Regular" family="Muli" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21 Reviews" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfo-jS-XgG">
+                                        <rect key="frame" x="255.5" y="35" width="54" height="13"/>
+                                        <fontDescription key="fontDescription" name="Muli-Regular" family="Muli" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Ulh-Xz-S5k" firstAttribute="centerX" secondItem="1gK-1V-6xI" secondAttribute="centerX" id="0dN-ef-FkF"/>
+                                    <constraint firstAttribute="height" constant="55" id="56t-IT-enW"/>
+                                    <constraint firstItem="n3F-Pz-ahe" firstAttribute="centerY" secondItem="Ulh-Xz-S5k" secondAttribute="centerY" id="9fU-3E-XmX"/>
+                                    <constraint firstItem="sdH-Ff-9dg" firstAttribute="top" secondItem="n3F-Pz-ahe" secondAttribute="bottom" constant="5" id="A5c-Jm-Rjx"/>
+                                    <constraint firstAttribute="trailing" secondItem="huC-a8-KdT" secondAttribute="trailing" constant="30" id="F5J-vo-e2j"/>
+                                    <constraint firstItem="sdH-Ff-9dg" firstAttribute="centerX" secondItem="n3F-Pz-ahe" secondAttribute="centerX" id="GK2-jX-R0d"/>
+                                    <constraint firstItem="Ur0-mj-fxY" firstAttribute="top" secondItem="Ulh-Xz-S5k" secondAttribute="bottom" constant="5" id="IIi-62-aWi"/>
+                                    <constraint firstItem="n3F-Pz-ahe" firstAttribute="leading" secondItem="1gK-1V-6xI" secondAttribute="leading" constant="30" id="TeU-Nr-RnL"/>
+                                    <constraint firstItem="n3F-Pz-ahe" firstAttribute="top" secondItem="1gK-1V-6xI" secondAttribute="top" constant="5" id="VWw-jx-taV"/>
+                                    <constraint firstItem="Ur0-mj-fxY" firstAttribute="centerX" secondItem="Ulh-Xz-S5k" secondAttribute="centerX" id="ZRF-qc-S93"/>
+                                    <constraint firstItem="jfo-jS-XgG" firstAttribute="top" secondItem="huC-a8-KdT" secondAttribute="bottom" constant="5" id="ZU9-nm-ZQZ"/>
+                                    <constraint firstItem="huC-a8-KdT" firstAttribute="centerY" secondItem="Ulh-Xz-S5k" secondAttribute="centerY" id="c6B-BG-aaO"/>
+                                    <constraint firstItem="huC-a8-KdT" firstAttribute="top" secondItem="1gK-1V-6xI" secondAttribute="top" constant="5" id="chi-vu-AJb"/>
+                                    <constraint firstItem="jfo-jS-XgG" firstAttribute="centerX" secondItem="huC-a8-KdT" secondAttribute="centerX" id="kGD-3q-89G"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rx6-5h-RMb">
+                                <rect key="frame" x="59" y="42.5" width="55" height="19"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.70505136989999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="7Kp-Xf-GSX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Muli-Regular" family="Muli" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Basic warm up Exercise" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0S-KL-VhH">
+                                <rect key="frame" x="59" y="68" width="151.5" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Muli-Regular" family="Muli" pointSize="13"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Basic yoga position" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7O-sd-SZ4">
+                                <rect key="frame" x="59" y="89.5" width="126" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Muli-Regular" family="Muli" pointSize="13"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="a7O-sd-SZ4" firstAttribute="top" secondItem="g0S-KL-VhH" secondAttribute="bottom" constant="5" id="07H-uD-nte"/>
+                            <constraint firstItem="a7O-sd-SZ4" firstAttribute="leading" secondItem="rx6-5h-RMb" secondAttribute="leading" id="0YX-aM-Rlp"/>
+                            <constraint firstAttribute="trailing" secondItem="WbU-ew-ucZ" secondAttribute="trailing" constant="10" id="0gq-pn-oES"/>
+                            <constraint firstItem="g0S-KL-VhH" firstAttribute="leading" secondItem="rx6-5h-RMb" secondAttribute="leading" id="6tl-uG-Jfp"/>
+                            <constraint firstItem="rx6-5h-RMb" firstAttribute="top" secondItem="WbU-ew-ucZ" secondAttribute="bottom" constant="10.5" id="7Sr-h4-AGy"/>
+                            <constraint firstItem="1gK-1V-6xI" firstAttribute="leading" secondItem="clO-As-Hl4" secondAttribute="leading" id="A8t-eX-Ohi"/>
+                            <constraint firstItem="WbU-ew-ucZ" firstAttribute="top" secondItem="iZp-zu-9A6" secondAttribute="top" id="Bac-Yk-cbI"/>
+                            <constraint firstItem="iZp-zu-9A6" firstAttribute="leading" secondItem="clO-As-Hl4" secondAttribute="leading" constant="10" id="QtT-uT-Hlc"/>
+                            <constraint firstItem="WbU-ew-ucZ" firstAttribute="top" secondItem="clO-As-Hl4" secondAttribute="top" constant="10" id="TLN-ZW-uAQ"/>
+                            <constraint firstAttribute="bottom" secondItem="1gK-1V-6xI" secondAttribute="bottom" id="Z9L-uY-47S"/>
+                            <constraint firstItem="1gK-1V-6xI" firstAttribute="top" secondItem="a7O-sd-SZ4" secondAttribute="bottom" constant="8.5" id="fHh-oQ-PMj"/>
+                            <constraint firstItem="g0S-KL-VhH" firstAttribute="top" secondItem="rx6-5h-RMb" secondAttribute="bottom" constant="6.5" id="n5f-i3-RvB"/>
+                            <constraint firstItem="WbU-ew-ucZ" firstAttribute="leading" secondItem="iZp-zu-9A6" secondAttribute="trailing" constant="14" id="nvr-OW-H5x"/>
+                            <constraint firstItem="rx6-5h-RMb" firstAttribute="leading" secondItem="WbU-ew-ucZ" secondAttribute="leading" id="paQ-LQ-p7L"/>
+                            <constraint firstAttribute="trailing" secondItem="1gK-1V-6xI" secondAttribute="trailing" id="rM1-UU-eBz"/>
+                            <constraint firstItem="iZp-zu-9A6" firstAttribute="top" secondItem="clO-As-Hl4" secondAttribute="top" constant="10" id="voI-4d-MZX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="clO-As-Hl4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ND9-7z-hLo"/>
+                    <constraint firstAttribute="bottom" secondItem="clO-As-Hl4" secondAttribute="bottom" constant="10" id="gYB-If-Bho"/>
+                    <constraint firstItem="clO-As-Hl4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="m7f-UM-eO6"/>
+                    <constraint firstAttribute="trailing" secondItem="clO-As-Hl4" secondAttribute="trailing" constant="10" id="sUU-zV-mAg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="152.89855072463769" y="158.70535714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Yoga_Login_Icon" width="1507" height="1027"/>
+        <image name="review" width="32" height="32"/>
+        <image name="stopwatch" width="32" height="32"/>
+        <image name="weightlifter" width="32" height="32"/>
+    </resources>
+</document>

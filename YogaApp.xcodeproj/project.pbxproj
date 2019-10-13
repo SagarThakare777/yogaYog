@@ -3,25 +3,114 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A49993A7D5A4563BB50FDEA /* Pods_YogaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0AD62757D1F8C987703405 /* Pods_YogaApp.framework */; };
 		A1B2F4C62311890400894432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2F4C52311890400894432 /* AppDelegate.swift */; };
 		A1B2F4C82311890400894432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2F4C72311890400894432 /* ViewController.swift */; };
 		A1B2F4CB2311890400894432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4C92311890400894432 /* Main.storyboard */; };
 		A1B2F4CD2311890800894432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4CC2311890800894432 /* Assets.xcassets */; };
-		A1B2F4D02311890800894432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4CE2311890800894432 /* LaunchScreen.storyboard */; };
+		A1B2F4F723118C3700894432 /* Muli-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4DF23118C3700894432 /* Muli-Black.ttf */; };
+		A1B2F4F823118C3700894432 /* Muli-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4E023118C3700894432 /* Muli-ExtraBold.ttf */; };
+		A1B2F4F923118C3700894432 /* Muli-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4E123118C3700894432 /* Muli-Bold.ttf */; };
+		A1B2F4FA23118C3700894432 /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4E223118C3700894432 /* Muli-Light.ttf */; };
+		A1B2F4FB23118C3700894432 /* Muli-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4E323118C3700894432 /* Muli-Regular.ttf */; };
+		A1B2F4FC23118C3700894432 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4E523118C3700894432 /* Roboto-Medium.ttf */; };
+		A1B2F4FD23118C3700894432 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4E623118C3700894432 /* Roboto-Light.ttf */; };
+		A1B2F4FE23118C3700894432 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4E723118C3700894432 /* RobotoCondensed-Bold.ttf */; };
+		A1B2F4FF23118C3700894432 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4E823118C3700894432 /* RobotoCondensed-Light.ttf */; };
+		A1B2F50023118C3700894432 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4E923118C3700894432 /* Roboto-Regular.ttf */; };
+		A1B2F50123118C3700894432 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4EA23118C3700894432 /* Roboto-MediumItalic.ttf */; };
+		A1B2F50223118C3700894432 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4EB23118C3700894432 /* RobotoCondensed-Italic.ttf */; };
+		A1B2F50323118C3700894432 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4EC23118C3700894432 /* RobotoCondensed-BoldItalic.ttf */; };
+		A1B2F50423118C3700894432 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4ED23118C3700894432 /* RobotoCondensed-LightItalic.ttf */; };
+		A1B2F50523118C3700894432 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4EE23118C3700894432 /* Roboto-ThinItalic.ttf */; };
+		A1B2F50623118C3700894432 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4EF23118C3700894432 /* RobotoCondensed-Regular.ttf */; };
+		A1B2F50723118C3700894432 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4F023118C3700894432 /* Roboto-BoldItalic.ttf */; };
+		A1B2F50823118C3700894432 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4F123118C3700894432 /* Roboto-LightItalic.ttf */; };
+		A1B2F50923118C3700894432 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4F223118C3700894432 /* Roboto-Italic.ttf */; };
+		A1B2F50A23118C3700894432 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4F323118C3700894432 /* Roboto-BlackItalic.ttf */; };
+		A1B2F50B23118C3700894432 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4F423118C3700894432 /* Roboto-Bold.ttf */; };
+		A1B2F50C23118C3700894432 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4F523118C3700894432 /* Roboto-Thin.ttf */; };
+		A1B2F50D23118C3700894432 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F4F623118C3700894432 /* Roboto-Black.ttf */; };
+		A1B2F51223118D0300894432 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2F51123118D0300894432 /* CardView.swift */; };
+		A1B2F51423118D4B00894432 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2F51323118D4B00894432 /* GradientView.swift */; };
+		A1B2F51823118DB900894432 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B2F51723118DB900894432 /* Dashboard.storyboard */; };
+		A1B2F51B2311AC8200894432 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2F51A2311AC8200894432 /* Extensions.swift */; };
+		A1B2F5202311B35B00894432 /* MainPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2F51F2311B35B00894432 /* MainPageVC.swift */; };
+		A1B2F5222311B5A500894432 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2F5212311B5A500894432 /* SplashScreenVC.swift */; };
+		A1B2F5242311B7B700894432 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2F5232311B7B700894432 /* Constant.swift */; };
+		A1B2F5262311CE4900894432 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2F5252311CE4900894432 /* SignInVC.swift */; };
+		A1F37B9C23126FB400F5AECC /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F37B9B23126FB300F5AECC /* SignUpVC.swift */; };
+		A1F37BA4231297EC00F5AECC /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F37BA3231297EC00F5AECC /* MainTabbarController.swift */; };
+		A1F37BA923129EDB00F5AECC /* DashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F37BA823129EDB00F5AECC /* DashBoardVC.swift */; };
+		A1F37BAB23129EF700F5AECC /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F37BAA23129EF700F5AECC /* NotificationVC.swift */; };
+		A1F37BAD23129F0D00F5AECC /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F37BAC23129F0D00F5AECC /* CategoriesVC.swift */; };
+		A1F37BAF23129F1E00F5AECC /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F37BAE23129F1E00F5AECC /* ProfileVC.swift */; };
+		A1F37BB123129F3100F5AECC /* OtherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F37BB023129F3100F5AECC /* OtherVC.swift */; };
+		A1F37BB52312A1EE00F5AECC /* DashBoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F37BB32312A1EE00F5AECC /* DashBoardCollectionViewCell.swift */; };
+		A1F37BB62312A1EE00F5AECC /* DashBoardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F37BB42312A1EE00F5AECC /* DashBoardCollectionViewCell.xib */; };
+		A1F37BBE2312ABDE00F5AECC /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F37BBC2312ABDE00F5AECC /* CategoryTableViewCell.swift */; };
+		A1F37BBF2312ABDE00F5AECC /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F37BBD2312ABDE00F5AECC /* CategoryTableViewCell.xib */; };
+		A1F39F8D2311DB3300F43BDC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F39F8C2311DB3300F43BDC /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F84274A6410B8260EB85EDD /* Pods-YogaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaApp.release.xcconfig"; path = "Target Support Files/Pods-YogaApp/Pods-YogaApp.release.xcconfig"; sourceTree = "<group>"; };
 		A1B2F4C22311890400894432 /* YogaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B2F4C52311890400894432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B2F4C72311890400894432 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1B2F4CA2311890400894432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1B2F4CC2311890800894432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1B2F4CF2311890800894432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1B2F4D12311890800894432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B2F4DF23118C3700894432 /* Muli-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Black.ttf"; sourceTree = "<group>"; };
+		A1B2F4E023118C3700894432 /* Muli-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A1B2F4E123118C3700894432 /* Muli-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Bold.ttf"; sourceTree = "<group>"; };
+		A1B2F4E223118C3700894432 /* Muli-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Light.ttf"; sourceTree = "<group>"; };
+		A1B2F4E323118C3700894432 /* Muli-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Regular.ttf"; sourceTree = "<group>"; };
+		A1B2F4E523118C3700894432 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		A1B2F4E623118C3700894432 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		A1B2F4E723118C3700894432 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		A1B2F4E823118C3700894432 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		A1B2F4E923118C3700894432 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		A1B2F4EA23118C3700894432 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A1B2F4EB23118C3700894432 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		A1B2F4EC23118C3700894432 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A1B2F4ED23118C3700894432 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		A1B2F4EE23118C3700894432 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A1B2F4EF23118C3700894432 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		A1B2F4F023118C3700894432 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A1B2F4F123118C3700894432 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		A1B2F4F223118C3700894432 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		A1B2F4F323118C3700894432 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A1B2F4F423118C3700894432 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		A1B2F4F523118C3700894432 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		A1B2F4F623118C3700894432 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		A1B2F51123118D0300894432 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A1B2F51323118D4B00894432 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		A1B2F51723118DB900894432 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		A1B2F51A2311AC8200894432 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A1B2F51F2311B35B00894432 /* MainPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageVC.swift; sourceTree = "<group>"; };
+		A1B2F5212311B5A500894432 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		A1B2F5232311B7B700894432 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A1B2F5252311CE4900894432 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		A1F37B9B23126FB300F5AECC /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		A1F37B9E23128CED00F5AECC /* YogaYog-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YogaYog-Bridging-Header.h"; sourceTree = "<group>"; };
+		A1F37BA3231297EC00F5AECC /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		A1F37BA823129EDB00F5AECC /* DashBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardVC.swift; sourceTree = "<group>"; };
+		A1F37BAA23129EF700F5AECC /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		A1F37BAC23129F0D00F5AECC /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
+		A1F37BAE23129F1E00F5AECC /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		A1F37BB023129F3100F5AECC /* OtherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherVC.swift; sourceTree = "<group>"; };
+		A1F37BB32312A1EE00F5AECC /* DashBoardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardCollectionViewCell.swift; sourceTree = "<group>"; };
+		A1F37BB42312A1EE00F5AECC /* DashBoardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashBoardCollectionViewCell.xib; sourceTree = "<group>"; };
+		A1F37BBC2312ABDE00F5AECC /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		A1F37BBD2312ABDE00F5AECC /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		A1F39F8C2311DB3300F43BDC /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EA0AD62757D1F8C987703405 /* Pods_YogaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EEA80FD7B86FA6C202F955 /* Pods-YogaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaApp.debug.xcconfig"; path = "Target Support Files/Pods-YogaApp/Pods-YogaApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A49993A7D5A4563BB50FDEA /* Pods_YogaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +130,8 @@
 			children = (
 				A1B2F4C42311890400894432 /* YogaApp */,
 				A1B2F4C32311890400894432 /* Products */,
+				FFB80AF8AE92D0A6317D7002 /* Pods */,
+				F6EC729445E54699122342D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +148,264 @@
 			children = (
 				A1B2F4C52311890400894432 /* AppDelegate.swift */,
 				A1B2F4C72311890400894432 /* ViewController.swift */,
-				A1B2F4C92311890400894432 /* Main.storyboard */,
+				A1B2F5212311B5A500894432 /* SplashScreenVC.swift */,
+				A1B2F4D723118A9800894432 /* Utilities */,
+				A1B2F4D823118AA300894432 /* Resources */,
+				A1B2F4D923118AAF00894432 /* Model */,
+				A1B2F4DA23118AB800894432 /* View */,
+				A1B2F4DB23118AC100894432 /* Controller */,
+				A1B2F4DC23118ACD00894432 /* Storyboard */,
 				A1B2F4CC2311890800894432 /* Assets.xcassets */,
-				A1B2F4CE2311890800894432 /* LaunchScreen.storyboard */,
 				A1B2F4D12311890800894432 /* Info.plist */,
 			);
 			path = YogaApp;
+			sourceTree = "<group>";
+		};
+		A1B2F4D723118A9800894432 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2F5232311B7B700894432 /* Constant.swift */,
+				A1F39F8C2311DB3300F43BDC /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A1B2F4D823118AA300894432 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1F37B9D23128C9500F5AECC /* BridgingHeader */,
+				A1B2F4DD23118C3700894432 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1B2F4D923118AAF00894432 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1B2F4DA23118AB800894432 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2F5192311AC6D00894432 /* Extensions */,
+				A1B2F51023118CCE00894432 /* CustomView */,
+				A1B2F50F23118CBA00894432 /* TableViewCell */,
+				A1B2F50E23118CAD00894432 /* CollectionViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1B2F4DB23118AC100894432 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2F51C2311AD0300894432 /* Login */,
+				A1F37B9F2312910000F5AECC /* Tabbar */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1B2F4DC23118ACD00894432 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2F4C92311890400894432 /* Main.storyboard */,
+				A1B2F51723118DB900894432 /* Dashboard.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A1B2F4DD23118C3700894432 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2F4DE23118C3700894432 /* MuliFonts */,
+				A1B2F4E423118C3700894432 /* RobotoFont */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A1B2F4DE23118C3700894432 /* MuliFonts */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2F4DF23118C3700894432 /* Muli-Black.ttf */,
+				A1B2F4E023118C3700894432 /* Muli-ExtraBold.ttf */,
+				A1B2F4E123118C3700894432 /* Muli-Bold.ttf */,
+				A1B2F4E223118C3700894432 /* Muli-Light.ttf */,
+				A1B2F4E323118C3700894432 /* Muli-Regular.ttf */,
+			);
+			path = MuliFonts;
+			sourceTree = "<group>";
+		};
+		A1B2F4E423118C3700894432 /* RobotoFont */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2F4E523118C3700894432 /* Roboto-Medium.ttf */,
+				A1B2F4E623118C3700894432 /* Roboto-Light.ttf */,
+				A1B2F4E723118C3700894432 /* RobotoCondensed-Bold.ttf */,
+				A1B2F4E823118C3700894432 /* RobotoCondensed-Light.ttf */,
+				A1B2F4E923118C3700894432 /* Roboto-Regular.ttf */,
+				A1B2F4EA23118C3700894432 /* Roboto-MediumItalic.ttf */,
+				A1B2F4EB23118C3700894432 /* RobotoCondensed-Italic.ttf */,
+				A1B2F4EC23118C3700894432 /* RobotoCondensed-BoldItalic.ttf */,
+				A1B2F4ED23118C3700894432 /* RobotoCondensed-LightItalic.ttf */,
+				A1B2F4EE23118C3700894432 /* Roboto-ThinItalic.ttf */,
+				A1B2F4EF23118C3700894432 /* RobotoCondensed-Regular.ttf */,
+				A1B2F4F023118C3700894432 /* Roboto-BoldItalic.ttf */,
+				A1B2F4F123118C3700894432 /* Roboto-LightItalic.ttf */,
+				A1B2F4F223118C3700894432 /* Roboto-Italic.ttf */,
+				A1B2F4F323118C3700894432 /* Roboto-BlackItalic.ttf */,
+				A1B2F4F423118C3700894432 /* Roboto-Bold.ttf */,
+				A1B2F4F523118C3700894432 /* Roboto-Thin.ttf */,
+				A1B2F4F623118C3700894432 /* Roboto-Black.ttf */,
+			);
+			path = RobotoFont;
+			sourceTree = "<group>";
+		};
+		A1B2F50E23118CAD00894432 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1F37BB72312AB8E00F5AECC /* Category */,
+				A1F37BB22312A1D900F5AECC /* DashBoardCollectionViewCell */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		A1B2F50F23118CBA00894432 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		A1B2F51023118CCE00894432 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2F51123118D0300894432 /* CardView.swift */,
+				A1B2F51323118D4B00894432 /* GradientView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		A1B2F5192311AC6D00894432 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2F51A2311AC8200894432 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A1B2F51C2311AD0300894432 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2F51F2311B35B00894432 /* MainPageVC.swift */,
+				A1B2F5252311CE4900894432 /* SignInVC.swift */,
+				A1F37B9B23126FB300F5AECC /* SignUpVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A1F37B9D23128C9500F5AECC /* BridgingHeader */ = {
+			isa = PBXGroup;
+			children = (
+				A1F37B9E23128CED00F5AECC /* YogaYog-Bridging-Header.h */,
+			);
+			path = BridgingHeader;
+			sourceTree = "<group>";
+		};
+		A1F37B9F2312910000F5AECC /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				A1F37BA12312942400F5AECC /* MainTabbar */,
+				A1F37BA02312941000F5AECC /* DashBoard */,
+				A1F37BA723129D8300F5AECC /* Other */,
+				A1F37BA523129D6F00F5AECC /* Profile */,
+				A1F37BA623129D7A00F5AECC /* Categories */,
+				A1F37BA22312943000F5AECC /* Notification */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		A1F37BA02312941000F5AECC /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A1F37BA823129EDB00F5AECC /* DashBoardVC.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		A1F37BA12312942400F5AECC /* MainTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				A1F37BA3231297EC00F5AECC /* MainTabbarController.swift */,
+			);
+			path = MainTabbar;
+			sourceTree = "<group>";
+		};
+		A1F37BA22312943000F5AECC /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				A1F37BAA23129EF700F5AECC /* NotificationVC.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		A1F37BA523129D6F00F5AECC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A1F37BAE23129F1E00F5AECC /* ProfileVC.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A1F37BA623129D7A00F5AECC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A1F37BAC23129F0D00F5AECC /* CategoriesVC.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A1F37BA723129D8300F5AECC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A1F37BB023129F3100F5AECC /* OtherVC.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A1F37BB22312A1D900F5AECC /* DashBoardCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1F37BB32312A1EE00F5AECC /* DashBoardCollectionViewCell.swift */,
+				A1F37BB42312A1EE00F5AECC /* DashBoardCollectionViewCell.xib */,
+			);
+			path = DashBoardCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		A1F37BB72312AB8E00F5AECC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A1F37BBC2312ABDE00F5AECC /* CategoryTableViewCell.swift */,
+				A1F37BBD2312ABDE00F5AECC /* CategoryTableViewCell.xib */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F6EC729445E54699122342D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0AD62757D1F8C987703405 /* Pods_YogaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFB80AF8AE92D0A6317D7002 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6EEA80FD7B86FA6C202F955 /* Pods-YogaApp.debug.xcconfig */,
+				9F84274A6410B8260EB85EDD /* Pods-YogaApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +415,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1B2F4D42311890800894432 /* Build configuration list for PBXNativeTarget "YogaApp" */;
 			buildPhases = (
+				891C6F6A8A5152CCF2137A69 /* [CP] Check Pods Manifest.lock */,
 				A1B2F4BE2311890400894432 /* Sources */,
 				A1B2F4BF2311890400894432 /* Frameworks */,
 				A1B2F4C02311890400894432 /* Resources */,
+				10C179FF35E2164DBD758CA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +468,105 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B2F4D02311890800894432 /* LaunchScreen.storyboard in Resources */,
+				A1B2F4F923118C3700894432 /* Muli-Bold.ttf in Resources */,
+				A1B2F4F823118C3700894432 /* Muli-ExtraBold.ttf in Resources */,
+				A1B2F50823118C3700894432 /* Roboto-LightItalic.ttf in Resources */,
+				A1B2F4FD23118C3700894432 /* Roboto-Light.ttf in Resources */,
+				A1B2F4FB23118C3700894432 /* Muli-Regular.ttf in Resources */,
+				A1B2F50123118C3700894432 /* Roboto-MediumItalic.ttf in Resources */,
+				A1B2F50423118C3700894432 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				A1B2F50523118C3700894432 /* Roboto-ThinItalic.ttf in Resources */,
+				A1B2F50D23118C3700894432 /* Roboto-Black.ttf in Resources */,
+				A1B2F50923118C3700894432 /* Roboto-Italic.ttf in Resources */,
+				A1B2F50A23118C3700894432 /* Roboto-BlackItalic.ttf in Resources */,
+				A1B2F50323118C3700894432 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				A1B2F50623118C3700894432 /* RobotoCondensed-Regular.ttf in Resources */,
 				A1B2F4CD2311890800894432 /* Assets.xcassets in Resources */,
+				A1B2F50B23118C3700894432 /* Roboto-Bold.ttf in Resources */,
+				A1F37BBF2312ABDE00F5AECC /* CategoryTableViewCell.xib in Resources */,
 				A1B2F4CB2311890400894432 /* Main.storyboard in Resources */,
+				A1B2F4F723118C3700894432 /* Muli-Black.ttf in Resources */,
+				A1B2F51823118DB900894432 /* Dashboard.storyboard in Resources */,
+				A1B2F4FA23118C3700894432 /* Muli-Light.ttf in Resources */,
+				A1B2F50C23118C3700894432 /* Roboto-Thin.ttf in Resources */,
+				A1B2F4FC23118C3700894432 /* Roboto-Medium.ttf in Resources */,
+				A1B2F50023118C3700894432 /* Roboto-Regular.ttf in Resources */,
+				A1B2F4FF23118C3700894432 /* RobotoCondensed-Light.ttf in Resources */,
+				A1B2F4FE23118C3700894432 /* RobotoCondensed-Bold.ttf in Resources */,
+				A1B2F50723118C3700894432 /* Roboto-BoldItalic.ttf in Resources */,
+				A1B2F50223118C3700894432 /* RobotoCondensed-Italic.ttf in Resources */,
+				A1F37BB62312A1EE00F5AECC /* DashBoardCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10C179FF35E2164DBD758CA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YogaApp/Pods-YogaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YogaApp/Pods-YogaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YogaApp/Pods-YogaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		891C6F6A8A5152CCF2137A69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YogaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1B2F4BE2311890400894432 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B2F51B2311AC8200894432 /* Extensions.swift in Sources */,
 				A1B2F4C82311890400894432 /* ViewController.swift in Sources */,
+				A1F37BA4231297EC00F5AECC /* MainTabbarController.swift in Sources */,
+				A1B2F5262311CE4900894432 /* SignInVC.swift in Sources */,
+				A1F37BAF23129F1E00F5AECC /* ProfileVC.swift in Sources */,
+				A1F37B9C23126FB400F5AECC /* SignUpVC.swift in Sources */,
+				A1B2F5242311B7B700894432 /* Constant.swift in Sources */,
+				A1F37BB123129F3100F5AECC /* OtherVC.swift in Sources */,
+				A1B2F51223118D0300894432 /* CardView.swift in Sources */,
+				A1B2F5222311B5A500894432 /* SplashScreenVC.swift in Sources */,
+				A1B2F5202311B35B00894432 /* MainPageVC.swift in Sources */,
+				A1F37BAD23129F0D00F5AECC /* CategoriesVC.swift in Sources */,
+				A1F37BA923129EDB00F5AECC /* DashBoardVC.swift in Sources */,
+				A1B2F51423118D4B00894432 /* GradientView.swift in Sources */,
+				A1F37BBE2312ABDE00F5AECC /* CategoryTableViewCell.swift in Sources */,
+				A1F39F8D2311DB3300F43BDC /* Utilities.swift in Sources */,
 				A1B2F4C62311890400894432 /* AppDelegate.swift in Sources */,
+				A1F37BAB23129EF700F5AECC /* NotificationVC.swift in Sources */,
+				A1F37BB52312A1EE00F5AECC /* DashBoardCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +579,6 @@
 				A1B2F4CA2311890400894432 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A1B2F4CE2311890800894432 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1B2F4CF2311890800894432 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -280,17 +702,20 @@
 		};
 		A1B2F4D52311890800894432 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EEA80FD7B86FA6C202F955 /* Pods-YogaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4M66XSXVRU;
 				INFOPLIST_FILE = YogaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com..YogaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YogaApp/Resources/BridgingHeader/YogaYog-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +723,20 @@
 		};
 		A1B2F4D62311890800894432 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F84274A6410B8260EB85EDD /* Pods-YogaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4M66XSXVRU;
 				INFOPLIST_FILE = YogaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com..YogaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YogaApp/Resources/BridgingHeader/YogaYog-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
